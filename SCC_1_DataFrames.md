@@ -40,8 +40,12 @@ Introduction and Data Frames
 	- vectors
 	- data frames
 	- for later: matrices, lists, factors
-- vectors
-	
+
+##  Vectors
+- Vectors are one of the most useful ways to store data in R
+- It is basically a list of values
+- The order matters
+
 	```
 	weight <- c(60, 72, 57, 90, 95, 72)
 	height <- c(1.75, 1.8, 1.65, 1.9, 1.74, 1.91)
@@ -74,6 +78,9 @@ Introduction and Data Frames
 - and then install all at once
 
 ## Data Frames
+- data frames are another powerful way of storing data in R
+- a data frame could store whatever data you normally keep in an Excel table
+- but it's better
 - how to load them
 	- load `tidyr`, `dplyr`, and `readr`
 	- `read_csv`
@@ -90,6 +97,7 @@ Introduction and Data Frames
 - how to subset them
 	- `select`: select for certain columns
 	- `filter`: select for certain rows
+	
 ## Question Set 2
 
 1. Select a data frame with just the beer and taco columns. What are its dimensions?
