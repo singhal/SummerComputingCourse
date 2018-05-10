@@ -17,14 +17,12 @@ assignment and then answer the following questions by printing them to the
 screen. Some R functions that will come in handy include `length()`, `max()`,
 `min()`, `sum()`, and `mean()`.
 
-	```
 	number_of_birds <- c(28, 32, 1, 0, 10, 22, 30, 19, 145, 27, 
 	36, 25, 9, 38, 21, 12, 122, 87, 36, 3, 0, 5, 55, 62, 98, 32, 
 	900, 33, 14, 39, 56, 81, 29, 38, 1, 0, 143, 37, 98, 77, 92, 
 	83, 34, 98, 40, 45, 51, 17, 22, 37, 48, 38, 91, 73, 54, 46,
 	102, 273, 600, 10, 11)
-	``
-
+	
 1. How many sites are there?
 2. How many birds were counted at site 42?
 3. How many birds were counted at the last site? Have the computer
@@ -59,7 +57,7 @@ Familiarize yourself with the built-in functions `abs()`, `round()`, `sqrt()`, `
 - Sometimes the functions you want don't exist, and you have to create your own functions
 - Let's break down one of these
 - Remember, computers are stupid, so we have to be very clear in what we are telling the computer we are trying to do
-
+	
 	```
 	fahrenheit_to_kelvin <- function(temp_F) {
  	 temp_K <- ((temp_F - 32) * (5 / 9)) + 273.15
@@ -111,14 +109,12 @@ that function along with your dinosaur mass function to estimate the weight, in 
 
 Create the following variables.
 
-	```
 	w <- 10.2
 	x <- 1.3
 	y <- 2.8
 	z <- 17.5
 	dna1 <- "attattaggaccaca"
 	dna2 <- "attattaggaacaca"
-	```
 
 Use them to print whether or not the following statements are  `TRUE` or `FALSE`.
 
@@ -135,10 +131,8 @@ Use them to print whether or not the following statements are  `TRUE` or `FALSE`
 ### Question Set 6
 To determine if a file named `thesis_data.csv` exists in your working directory
 you can use the code:
-
-	```
+	
 	file.exists('thesis_data.csv')
-	```
 
 This code returns `TRUE` if the files exists and `FALSE` if it does not.
 
@@ -153,7 +147,7 @@ return `FALSE`. Two points are considered near to each other if the absolute
 value of the difference in their latitudes is less than one and the absolute
 value of the difference in their longitudes is less than one. Fill in the `_________` in the function to make it work.
 
-   ``` 
+   
    near <- function(lat1, long1, lat2, long2){
        # Check if two geographic points are near each other 
        if ((abs(lat1 - lat2) < 1) & (_________){
@@ -163,7 +157,7 @@ value of the difference in their longitudes is less than one. Fill in the `_____
        }
        return(near)
    }
-   ```
+  
 
 - Improve the documentation for the function so that it is clear what near
    	means and what output the user should expect.
@@ -188,12 +182,10 @@ value of the difference in their longitudes is less than one. Fill in the `_____
 ### Question Set 8
 The following code prints the first five whole numbers one line at a time:
 
-	```
 	for (i in 1:5){
 	  print(i)
 	}
-	```
-
+	
 1. Modify this code to instead multiply each of the numbers 1 through 5 by 3, then print the result. 
 2. Modify this code to go from 5 to 1 (instead of 1 to 5).
 2. Use the vector `odds <- seq(1, 9, by = 2)` and a loop to square these numbers
@@ -212,11 +204,9 @@ The following code prints the first five whole numbers one line at a time:
 ### Question Set 9
 Take the following vector of Stegosaur lengths
 
-	```
 	lengths <- c(10.1, 9.5, 11.2, 9.8, 10.4, 12.0, 11.5, 9.5,
 	9.8, 10.0, 10.7, 10.2, 11.9, 9.7, 11.2, 11.8, 10.7)
-	```
-
+	
 and estimate the mass in kilograms for each length using a `for` loop,
 your function for estimating mass, `a = 10.95`, and `b = 2.64`. Print the
 results in order.
@@ -225,15 +215,11 @@ results in order.
 ### Question Set 10
 The following code gets just the genus from strings that are scientific names and capitalizes the first letter of the genus name. The `str_extract` and `str_to_title` functions are from the `stringr` package, which is great for working with strings. 
 	
-	```
 	waterbird <- "cygnus olor"
 	waterbird_genus <- str_extract(waterbird, "\\w+")
 	waterbird_genus_cap <- str_to_title(waterbird_genus)
 	print(waterbird_genus_cap)
-	```
 
 Modify the code to loop over a vector of multiple scientific names and print the capitalized genus names to the screen one line at a time, using the following vector: 
 
-	```
 	waterbirds <- c("cygnus olor", "aix sponsa", "anas acuta")
-	```
