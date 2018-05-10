@@ -29,7 +29,7 @@ Topics to cover
 - [Command Line](http://rik.smith-unna.com/command_line_bootcamp/?id=y3shhd1a5n)
 - [R for Statistics](https://cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf)
 
-# Bibliography
+# This course lifts heavily from:
 - http://cierareports.org/blog/2013/10/18/rCourse2013/
 - http://www.datacarpentry.org/R-ecology-lesson/
 - http://stat545.com/
