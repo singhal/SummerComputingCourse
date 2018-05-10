@@ -52,13 +52,13 @@ Statistics!
 	- If the p-value is significant, use a Tukey's HSD test to determine which groups, if any, are different.
 	- Which groups are different? Is this similar to what you expected based on the boxplot?
 2. Let's think about beer consumption & different genders, as well. We can test if the genders have different beer consumption. Do that analysis.
-3. If you have multiple factors (in this case, gender and population), you can combine them into one ANOVA. There are two ways of including multiple factors, which mean different things statistically.
+3. If you have multiple factors (in this case, gender and population), you can combine them into one ANOVA. There are two ways of including multiple factors, which mean different things statistically. Try them out, and look at the difference in output. What is the difference? What are they telling you? It helps to follow up running the ANOVA using Tukey's HSD to know for sure.
 		
 	```
 	aov(DEPENDENT_VAR ~ INDEPENDENT_VAR1 + INDEPENDENT_VAR2)
 	aov(DEPENDENT_VAR ~ INDEPENDENT_VAR1 * INDEPENDENT_VAR2)
 	```
-Try them out, and look at the difference in output. What is the difference? What are they telling you? It helps to follow up running the ANOVA using Tukey's HSD to know for sure.
+	
 4. Challenge yourself to figure out how to create one boxplot that shows populations on the X-axis, and for each population, has one box for females and another for males. (_Hint_: I would google ggplot2 and boxplot, and scroll through the pages to find one that has a graph like the one I want to see how to do it.)
 
 # Linear Regression
