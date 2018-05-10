@@ -41,22 +41,22 @@ Introduction and Data Frames
 	- data frames
 	- for later: matrices, lists, factors
 - vectors
-- 
+	
 	```
 	weight <- c(60, 72, 57, 90, 95, 72)
 	height <- c(1.75, 1.8, 1.65, 1.9, 1.74, 1.91)
 	```
-	- **Questions**
-		1. Describe in plain English what `c()` does.
-		2. Compare your answer to the `c()` help file, which can be called with `?c()`.
-		3. Make a comment in your code explaining to yourself using a “hash tag” #. Don’t forget, anytime you precede text with #, it is not read into your code.
-		4. Make a vector called `myFamily` that lists all the ages in your immediate family.
-	- BMI is weight divided by height - how could you get that?
-	- let's try plotting height by BMI
-	- **Questions**
-		1. Figure out the average age of people in your `myFamily` dataset. Note I didn’t tell you how to find averages in R. Google it.
-		2. Make a plot that has weight on the x-axis and height on the y-axis using the plot().
-
+	
+## Question Set 1
+	1. Describe in plain English what `c()` does.
+	2. Compare your answer to the `c()` help file, which can be called with `?c()`.
+	3. Make a comment in your code explaining to yourself using a “hash tag” #. Don’t forget, anytime you precede text with #, it is not read into your code.
+	4. Make a plot that has weight on the x-axis and height on the y-axis using the plot().
+	5. BMI is weight divided by height. Create a new vector that contains BMI based on the weight and height vectors above.
+	6. Then try plotting height by BMI.
+	7. Make a vector called `myFamily` that lists all the ages in your immediate family.
+	8. Figure out the average age of people in your `myFamily` dataset. Note I didn’t tell you how to find averages in R. Google it.
+	
 ## Let's get packages
 
 - packages
@@ -89,27 +89,28 @@ Introduction and Data Frames
 - how to subset them
 	- `select`: select for certain columns
 	- `filter`: select for certain rows
-	- **Questions**
-		1. Select a data frame with just the beer and taco columns. What are its dimensions?
-		2. Filter the data frame to just have women & nerds.
-		3. How many people have more than 40 beers a week?
-		4. Why doesn't `nerds = filter(d, population == 'nerds')` work?
-		5. Why doesn't `nerds = filter(d, population == nerds)` work?
+## Question Set 2
+	1. Select a data frame with just the beer and taco columns. What are its dimensions?
+	2. Filter the data frame to just have women & nerds.
+	3. How many people have more than 40 beers a week?
+	4. Why doesn't `nerds = filter(d, population == 'nerds')` work?
+	5. Why doesn't `nerds = filter(d, population == nerds)` work?
 - how to manipulate them
 	- `arrange`: sort by a column
 	- `group_by`: focus on just looking at part of the dataset at a time
 	- `mutate`: how to add column
 	- how to join them
-	- **Questions**
-		1. Figure out how to sort by a column in descending order
-		2. What does R do if you try to sort a non-numerical column?
+## Question Set 3
+	1. Figure out how to sort by a column in descending order (Google!)
+	2. What does R do if you try to sort a non-numerical column?
+		
 - how to describe them
 	- `summarize` and `summarize_at` and `summarize_each`
 		- with `summarize_at`, use `vars` and `funs`
 	- `tally`
 	- `n_distinct`
 	- `count`: get the counts of column
-- **Questions**
+## Question Set 4
 	1. How many nerds are there?
 	2. What is the maximum tacos eaten? (Google if you don't know how to find max!)
 	3. Subset the data to only nerds.
