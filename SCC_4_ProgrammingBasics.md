@@ -148,16 +148,16 @@ value of the difference in their latitudes is less than one and the absolute
 value of the difference in their longitudes is less than one. Fill in the `_________` in the function to make it work.
 
 ```
-	near <- function(lat1, long1, lat2, long2){
-     	# Check if two geographic points are near each other 
-       if ((abs(lat1 - lat2) < 1) & (_________){
-           near <- TRUE
-       } else {
-           near <- _________
-       }
-       return(near)
-   }
-   ```
+near <- function(lat1, long1, lat2, long2){
+	# Check if two geographic points are near each other 
+	if ((abs(lat1 - lat2) < 1) & (_________){
+		near <- TRUE
+	} else {
+		near <- _________
+	}
+	return(near)
+}
+```
   
 
 - Improve the documentation for the function so that it is clear what near
