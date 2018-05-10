@@ -132,5 +132,5 @@ Introduction and Data Frames
 6. Which population takes the fewest showers?
 7. Are the genders in each population about the same average age or not?
 8. Add a column that expresses how much people are spending on tacos. What group spends the most on tacos?
-	9. Which population has the highest rate of females who binge on coffee, but hardly ever drink alcohol?
-	10. Ask one more question about the dataset that you are interested in. Subset the data accordingly.
+9. Which population has the highest rate of females who binge on coffee, but hardly ever drink alcohol?
+10. Ask one more question about the dataset that you are interested in. Subset the data accordingly.
