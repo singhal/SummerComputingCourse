@@ -5,12 +5,18 @@ Topics to cover
 - sign up for free access to DataCamp
 - download Rstudio on your computer
 - create a folder on your computer called 'Summer_Computing_Course'
-- in that folder, download and unzip this file [XXX]
+- in that folder, download and unzip the [data!](https://github.com/singhal/SummerComputingCourse/blob/master/data.zip)
 - in that folder, create a subfolder called 'scripts'
 
+# Syllabus
+- [Data frames](https://github.com/singhal/SummerComputingCourse/blob/master/SCC_1_DataFrames.md)
+- [Data visualization](https://github.com/singhal/SummerComputingCourse/blob/master/SCC_2_Visualization.md)
+- [Basic stats in R](https://github.com/singhal/SummerComputingCourse/blob/master/SCC_3_Statistics.md)
+- [Programming Basics](https://github.com/singhal/SummerComputingCourse/blob/master/SCC_4_ProgrammingBasics.md)
+- [Projects!](https://github.com/singhal/SummerComputingCourse/blob/master/SCC_5_Projects.md)
+
 # Classroom rules
-- https://todaysmeet.com/
-- google doc for helpful hints
+- [Chat Room](https://todaysmeet.com/SummerComputingCourse)
 - stickies
 - lecture / activities / exercises
 	- the fastest way to learn is because you have data that you want to understand
