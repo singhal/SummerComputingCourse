@@ -103,7 +103,7 @@ Introduction and Data Frames
 1. Select a data frame with just the beer and taco columns. What are its dimensions?
 2. Filter the data frame to just have women & nerds.
 3. How many people have more than 40 beers a week?
-4. Why doesn't `nerds = filter(d, population == 'nerds')` work?
+4. Why doesn't `nerds = filter(d, population = 'nerds')` work?
 5. Why doesn't `nerds = filter(d, population == nerds)` work?
 
 - how to manipulate them
