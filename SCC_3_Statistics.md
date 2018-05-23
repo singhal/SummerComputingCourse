@@ -24,12 +24,12 @@ Statistics!
 ## Questions Set 1
 
 1. Let's think about beer and coffee consumption. From what you know about these two things, would you think they would be correlated? Why or why not? 
-		- Plot them. Do they look correlated?
-		- Test if they are correlated. What is the p-value?
-		- What does p-value mean again?
-		- Was the approach you used a Pearson or a Spearman? (_Hint_: look at the output.)
-		- Redo it to use the other approach. (_Hint_: don't know how? remember the different ways to get help.)
-		- Which approach do you think is better for these data? Why?
+	- Plot them. Do they look correlated?
+	- Test if they are correlated. What is the p-value?
+	- What does p-value mean again?
+	- Was the approach you used a Pearson or a Spearman? (_Hint_: look at the output.)
+	- Redo it to use the other approach. (_Hint_: don't know how? remember the different ways to get help.)
+	- Which approach do you think is better for these data? Why?
 2. What does a negative correlation mean vs. a positive correlation?
 3. Test the correlation between age and shower.  From what you know about these two things, would you think they would be correlated? Why or why not? 
 	- Plot them. Do they look correlated?
