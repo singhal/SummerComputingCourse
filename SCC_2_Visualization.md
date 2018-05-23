@@ -34,5 +34,5 @@ Making graphs
 9. Make a graph that visually describes the difference between beer consumption between gender in the nerd category.
 10. Make a scatterplot that shows if there is a connection between tacos eaten and beers drunk.
 11. Take that scatterplot and add in a smooth line
-12. From your exploration of the stereotypes data make three hypotheses about the data.
-13. Make me a pretty graph - explore color options etc to make it suit your style
+12. From your exploration of the stereotypes data make a hypothesis about the data.
+13. Make me a pretty graph that explores that hypothesis - explore color options etc to make it suit your style
